@@ -8,5 +8,9 @@ vagrant ssh vg-prom-04
 Prometheus GUI 
 http://192.168.54.11:9090/
 
-vagrant destroy -f  vg-prom-04
+vagrant destroy -f  vg-prom-04 does not work
+Virtual Box GUI - Power Off - Delete files
+
+vagrant global-status (still listing VM)
+vagrant global-status --prune 
 ~~~~
